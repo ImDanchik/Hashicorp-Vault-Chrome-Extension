@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\s8666484\AppData\Local\Microsoft\WindowsApps;C:\Users\s8666484\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:50:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "reactextension",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^1.2.32",
+      "@fortawesome/free-solid-svg-icons": "^5.15.1",
+      "@fortawesome/react-fontawesome": "^0.1.14",
+      "bootstrap": "^4.5.3",
+      "eventemitter3": "^4.0.7",
+      "jquery": "^3.5.1",
+      "popper.js": "^1.16.1",
+      "react": "^16.4.1",
+      "react-bootstrap": "^1.4.0",
+      "react-dom": "^16.4.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
